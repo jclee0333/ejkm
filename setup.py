@@ -18,11 +18,7 @@ setup(
     author_email     = 'jclee@kisti.re.kr',
     url              = 'https://github.com/jclee0333/jupyter',
     #download_url     = 'Git에 저장된 whl 배포용 압축파일',
-    install_requires = [
-                        'streamlit>=1.27.0', # streamlit-based web service
-                        'streamlit_keycloak',
-                        ], 
-    classifiers      = ['Programming Language :: Python :: 3.7',
+    classifiers      = ['Programming Language :: Python :: 3.6',
                         'Intended Audience :: Korea Institute of Science and Technology Information',
                         'License :: MIT License']
     )
