@@ -154,6 +154,13 @@ def removeAllCustomKernels():
 def main():
     import argparse
     parser = argparse.ArgumentParser(description="EDISON Jupyter Kernel Management Program")
+    parser.add_argument('--args', help='Description of what --args does', required=False)
+    # 인자가 없는 경우 기본 도움말을 표시합니다.
+    args = parser.parse_args()
+    # 사용자가 아무런 인자도 제공하지 않았을 때 도움말을 표시하도록 설정합니다.
+    if not any(vars(args).values()):
+        parser.print_help()
+        return
     parser.add_argument('--img', help="filepath of the singularity container, e.g., /home/kisti/qm.sif or docker://python3 (docker image will be build into /{pwd}/{docker_name}.sif)")
     parser.add_argument('--kpath', help="specific python kernel path in the container, default is 'auto'", default='auto')#, e.g., "/usr/bin/python"
     parser.add_argument('--dname', help="specific python kernel display name in jupyter, default is 'auto'", default='auto')#, e.g., "Python3 (qe-singularity)"
