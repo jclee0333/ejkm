@@ -10,6 +10,22 @@
 
 ## Image Build Location Example : {user_home}/.singularity/{image_name}.sif 
 
+## Usage
+```
+usage: ejkm [-h] [--img IMG] [--kpath KPATH] [--dname DNAME] [--scanonly SCANONLY] [--rmall RMALL]
+
+EDISON Jupyter Kernel Management Program
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --img IMG            filepath of the singularity container, e.g., /home/kisti/qm.sif or docker://python3
+                       (docker image will be build into /{pwd}/{docker_name}.sif)
+  --kpath KPATH        specific python kernel path in the container, default is 'auto'
+  --dname DNAME        specific python kernel display name in jupyter, default is 'auto'
+  --scanonly SCANONLY  scan python kernel path only in a specific container (yes/no), default is 'no'
+  --rmall RMALL        remove all custom kernels (yes/no), default is 'no'
+```
+
 ## Test Codes (examples)
 ```
 ejkm --img quantum-mobile_20_11_2a.sif
