@@ -11,10 +11,12 @@
 ## Image Build Location Example : {user_home}/.singularity/{image_name}.sif 
 
 ## Test Codes (examples)
-`ejkm --img quantum-mobile_20_11_2a.sif`
-`ejkm --img "quantum-mobile_20_11_2a.sif" --kpath "/usr/bin/python3" --dname "py3 (qe-singularity)"`
-`ejkm --img "quantum-mobile_20_11_2a.sif" --scanonly yes`
-`ejkm --rmall yes`
+```
+ejkm --img quantum-mobile_20_11_2a.sif
+ejkm --img "quantum-mobile_20_11_2a.sif" --kpath "/usr/bin/python3" --dname "py3 (qe-singularity)"
+ejkm --img "quantum-mobile_20_11_2a.sif" --scanonly yes
+ejkm --rmall yes
+```
 
 ## Installation
 `pip install git+https://github.com/jclee0333/ejkm.git`
