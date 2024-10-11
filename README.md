@@ -36,3 +36,8 @@ ejkm --rmall yes
 
 ## Installation
 `pip install git+https://github.com/jclee0333/ejkm.git`
+
+## License
+MIT License
+
+## Korea Institute of Science Technology and Information (KISTI)
