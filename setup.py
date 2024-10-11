@@ -8,7 +8,7 @@ with open('README.md', 'r', 'utf-8') as f:
 
 setup(
     name             = 'ejkm',
-    version          = '0.2.0',
+    version          = '0.3.0',
     packages         = find_packages(),
     description      = 'EDISON Jupyter Kernel Management',
     long_description = readme,
