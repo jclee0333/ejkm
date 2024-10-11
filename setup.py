@@ -16,7 +16,7 @@ setup(
     license          = '',
     author           = 'Jeongcheol Lee',
     author_email     = 'jclee@kisti.re.kr',
-    url              = 'https://github.com/jclee0333/jupyter',
+    url              = 'https://github.com/jclee0333/ejkm',
     #download_url     = 'Git에 저장된 whl 배포용 압축파일',
     classifiers      = ['Programming Language :: Python :: 3.6',
                         'Intended Audience :: Korea Institute of Science and Technology Information',
