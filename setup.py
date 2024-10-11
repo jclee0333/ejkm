@@ -19,7 +19,7 @@ setup(
     url              = 'https://github.com/jclee0333/ejkm',
     entry_points={
         'console_scripts': [
-            'ejkm=main',  # 'ejkm'은 실행할 명령어, 'ejkm:main'은 ejkm.py의 main 함수를 가리킵니다.
+            'ejkm=ejkm:main',  # 'ejkm'은 실행할 명령어, 'ejkm:main'은 ejkm.py의 main 함수를 가리킵니다.
         ],
     },
     #download_url     = 'Git에 저장된 whl 배포용 압축파일',
