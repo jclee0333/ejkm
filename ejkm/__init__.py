@@ -1,1 +1,1 @@
-from ejkm import addkernel
+from ejkm.addkernel import *
