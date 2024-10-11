@@ -4,11 +4,11 @@ import json
 
 ##########################
 ### test codes (examples)
-### python add_kernel.py --img quantum-mobile_20_11_2a.sif
-### python add_kernel.py --img docker://python
-### python add_kernel.py --img "quantum-mobile_20_11_2a.sif" --kpath "/usr/bin/python3" --dname "py3 (qe-singularity)"
-### python add_kernel.py --img "quantum-mobile_20_11_2a.sif" --scanonly yes
-### python add_kernel.py --rmall yes
+### python addkernel.py --img quantum-mobile_20_11_2a.sif
+### python addkernel.py --img docker://python
+### python addkernel.py --img "quantum-mobile_20_11_2a.sif" --kpath "/usr/bin/python3" --dname "py3 (qe-singularity)"
+### python addkernel.py --img "quantum-mobile_20_11_2a.sif" --scanonly yes
+### python addkernel.py --rmall yes
 ##########################
 
 def getUserID():
